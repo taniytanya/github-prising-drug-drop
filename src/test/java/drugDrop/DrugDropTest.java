@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Condition.text;
 public class DrugDropTest {
 
     @Test
-    void comparePlansOpens() {
+    void changePlacesForElements() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
         $("#column-a").shouldHave(text("a"));
         $("#column-b").shouldHave(text("b"));

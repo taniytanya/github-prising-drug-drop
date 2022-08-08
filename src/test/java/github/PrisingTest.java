@@ -15,7 +15,7 @@ public class PrisingTest {
     }
 
     @Test
-    void comparePlansOpens() {
+    void PageComparePlansOpens() {
         open("/");
         $(byText("Pricing")).hover();
         $(byText("Compare plans")).click();
